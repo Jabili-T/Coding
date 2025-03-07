@@ -1,0 +1,1 @@
+& C:/Users/JABILI/AppData/Local/Programs/Python/Python312/python.exe c:/Users/JABILI/Desktop/COURSES/python/11.FILES/3.file_stream.py
