@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events & Cookies</title>
+    <link rel="stylesheet" href="2.S002.CSS">
+</head>
+<body>
+
+    <!-- Event Listener for Date & Time -->
+    <button id="dateTimeBtn">Show Date & Time</button>
+    <p id="dateTimeDisplay"></p>
+
+    <!-- Form Validation -->
+    <form onsubmit="return validateForm()">
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+    <p id="errorMsg" class="error"></p>
+
+    <!-- Debugging Console Example -->
+    <button onclick="debugExample()">Check Console Log</button>
+
+    <!-- Cookie Management -->
+    <button onclick="setCookie('user', 'ZOYA', 7)">Set Cookie</button>
+    <button onclick="getCookie('user')">Get Cookie</button>
+    <button onclick="checkCookie()">Check Cookie</button>
+    <p id="cookieResult"></p>
+
+    <!-- JSON Object Access -->
+    <p id="jsonDisplay"></p>
+    <button onclick="displayJsonData()">Show JSON Data</button>
+
+    <script src="3.S003.JS"></script>
+</body>
+</html>

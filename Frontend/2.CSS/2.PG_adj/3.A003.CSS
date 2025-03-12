@@ -1,0 +1,28 @@
+/* Apply smooth scrolling effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling for scroll links */
+.scroll-link {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+}
+
+/* Change background color on hover */
+.scroll-link:hover {
+    background-color: red;
+}
+
+/* Long content styling */
+.long-content {
+    height: 2000px; /* Making the page long */
+    background: linear-gradient(rgb(153, 149, 149), rgb(143, 60, 60));
+}

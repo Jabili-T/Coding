@@ -1,0 +1,19 @@
+
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Scrollable Box */
+.scroll-box {
+    width: 400px;
+    height: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll; 
+}

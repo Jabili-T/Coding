@@ -1,0 +1,22 @@
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+/* Fixed Table Layout */
+.fixed-table {
+    table-layout:FIXED;
+}
+
+/* Default Table Layout */
+.default-table {
+    table-layout: NONE;
+}

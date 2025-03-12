@@ -1,0 +1,9 @@
+.hero {
+    height: 100vh;
+    background: url('DOG.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+}

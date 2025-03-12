@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Concepts</title>
+    <link rel="stylesheet" href="2.P002.CSS">
+</head>
+<body>
+
+    <!-- Button to disappear using 'this' -->
+    <button class="disappear-btn" onclick="this.style.display='none'">Click to Disappear</button>
+
+    <!-- Call and Apply Demo -->
+    <button onclick="useCall()">Invoke using call()</button>
+    <button onclick="useApply()">Invoke using apply()</button>
+    <p id="callApplyResult"></p>
+
+    <!-- Counter using simple increment -->
+    <button onclick="incrementCounter()">Count</button>
+    <p id="counterValue">0</p>
+
+    <!-- Counter with getter and setter -->
+    <button onclick="incrementAdvancedCounter()">Advanced Count</button>
+    <p id="advancedCounterValue">0</p>
+
+    <!-- Object Prototype Demo -->
+    <p id="prototypeResult"></p>
+    <button onclick="extendPrototype()">Extend Object</button>
+
+    <script src="3.P003.JS"></script>
+</body>
+</html>

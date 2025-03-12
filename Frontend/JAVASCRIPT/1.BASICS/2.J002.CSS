@@ -1,0 +1,59 @@
+/* Hero Section */
+.hero {
+    background: url('I1.jpg') center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+}
+
+/* Table */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.styled-table {
+    table-layout: fixed;
+}
+
+/* List */
+.styled-list {
+    list-style-type: square;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Opacity Image */
+.opacity-image {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.opacity-image:hover {
+    opacity: 1;
+}
+
+/* Overflow */
+.overflow-box {
+    width: 200px;
+    height: 50px;
+    overflow: scroll;
+    border: 1px solid black;
+}

@@ -1,0 +1,38 @@
+#BOX1{
+     background-color: rgb(216, 153, 153);
+     width: 100px;
+     height: 100px;
+     margin: 25px;
+}
+#BOX2{
+    background-color: rgb(125, 125, 203);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    display: none;
+}
+#BOX3{
+    background-color: rgb(192, 167, 121);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+#vi1{
+    background-color: rgb(216, 153, 153);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+#vi2{
+   background-color: rgb(125, 125, 203);
+   width: 100px;
+   height: 100px;
+   margin: 25px;
+   visibility:hidden
+}
+#vi3{
+   background-color: rgb(192, 167, 121);
+   width: 100px;
+   height: 100px;
+   margin: 25px;
+}

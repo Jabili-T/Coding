@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics Web Page</title>
+    <style>
+         h1{
+            color:violet
+         }
+         h2{
+            color:blueviolet
+         }
+        
+        a:hover { color: red; }
+        
+        p::first-letter { font-size: 1.5em; font-weight: bold; }
+        .span { background-color:grey; }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1> Hi Welcome to My Web Page</h1>
+        <p>This is a Paragraph</p>
+        
+        <!-- Horizontal Rule: --->
+         <hr>
+        
+        <!-- Section 1: Text Formatting -->
+        <h2 id="section1">Section 1: Text Formatting</h2>
+        <p>
+            <!-- Bold and Italic -->
+            <b>Bold Text</b>, <i>Italic Text</i>
+        </p>
+        
+        <!-- Blockquote-->
+        <blockquote>This is a blockquote example.</blockquote>
+        
+        <!-- Span -->
+        <span class="span">Highlighted text using Span.</span>
+        
+        <!-- Navigation within the same page using anchor tags -->
+        <h2>Navigation</h2>
+        <a href="#section2">Go to Form Section</a>
+        
+        <!-- Section 2: Lists and Images -->
+        <h2 id="section2"><u>Lists and Image </u></h2>
+        <h2> Unordered list</h2>
+        <ul>
+            <!-- Unordered List with List Items -->
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h2> Ordered List </h2>
+        <ol type="A">
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+        
+        <img src="jala.jpg" alt="Sample Image" width="100" height="100">
+        
+        <!-- Section 3: Forms -->
+        <h2 id="section3"><u>Forms and Input Fields</u></h2>
+        <form>
+            <!-- Label and Input for Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            
+            <!-- Label and Input for Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+            
+            <!--Button-->
+            <input type="submit" value="Submit">
+        </form>
+        
+        <!-- Pseudo Classes and Elements Example -->
+        <h2>Pseudo Classes and Elements</h2>
+        <p class="highlight">Hover over <a href="#">this link</a> to see the effect.</p>
+        
+        <!-- Div and Span Usage Example -->
+        <div style="border: 1px solid black; padding: 10px;">
+            <span>This is a span inside a div.</span>
+        </div>
+    </div>
+</body>
+</html>

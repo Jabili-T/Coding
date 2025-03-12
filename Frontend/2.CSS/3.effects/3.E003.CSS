@@ -1,0 +1,64 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Common styles for all boxes */
+.box {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* 1️ Static Position (Default) */
+.static {
+    position: static;
+    background-color: #007bff;
+}
+
+/* 2️ Relative Position */
+.relative {
+    position: relative;
+    left:200px;
+    top: 10px;
+    background-color: #28a745;
+}
+
+/* 3️ Fixed Position */
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #dc3545;
+    z-index: 1000;
+}
+
+/* 4️ Absolute Position (Inside a relative container) */
+.container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #ffc107;
+}
+
+/* 5️ Sticky Position */
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #6f42c1;
+}
+

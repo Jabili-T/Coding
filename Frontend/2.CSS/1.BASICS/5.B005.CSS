@@ -1,0 +1,70 @@
+/* Styling the body */
+body {
+    background-color:yellowgreen;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Heading with different font styles */
+.heading {
+    font-size: 32px;
+    font-family: 'Georgia', serif;
+    color: darkblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Paragraph with different font styles */
+.paragraph {
+    font-size: 18px;
+    font-family: 'Verdana', sans-serif;
+    color: darkgreen;
+    font-style: italic;
+    text-align: justify;
+}
+
+/* Subheadings */
+.sub-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+/* Text alignments */
+.left-align {
+    text-align: left;
+    color: darkred;
+    font-size: 16px;
+}
+
+.center-align {
+    text-align: center;
+    color: darkcyan;
+    font-size: 16px;
+}
+
+.right-align {
+    text-align: right;
+    color: darkmagenta;
+    font-size: 16px;
+}
+
+/* Different font styles */
+.bold-text {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+.italic-text {
+    font-style: italic;
+    color: navy;
+    font-size: 18px;
+}
+
+.underline-text {
+    text-decoration: underline;
+    color: purple;
+    font-size: 18px;
+}

@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Image with opacity */
+.opacity-img {
+    width: 300px;
+    height: auto;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+/* Change opacity on hover */
+.opacity-img:hover {
+    opacity: 1; /* Fully visible when hovered */
+}

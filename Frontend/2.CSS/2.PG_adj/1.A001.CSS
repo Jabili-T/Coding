@@ -1,0 +1,30 @@
+
+body {
+    text-align: center;
+    background-color: white;
+    font-family: Arial;
+    transition: background-color 0.5s ;
+}
+
+/* Table Styling */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid black; 
+    transition: background-color 0.5s ease;
+}
+
+th, td {
+    border: 2px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+table:hover {
+    background-color: lightgray;
+}
+
+body:hover {
+    background-color: lightblue;
+}

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-image: url('f4.jpg');
+    background-size: cover, contain;
+    background-repeat: no-repeat,;
+    background-position: center, top right;
+}
+
+.multi-bg-box {
+    width: 400px;
+    height: 250px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black;
+    background-image: url('f1.jpg');
+    background-size: 100px 100px, cover;
+    background-repeat: repeat;
+    background-position: left top;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
